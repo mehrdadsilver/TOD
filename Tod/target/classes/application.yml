@@ -1,0 +1,12 @@
+security:
+  user:
+    password: 123456
+zuul:
+  routes:
+    resource:
+      path: /resource/**
+      url: http://localhost:9000
+server:
+  address: 127.0.0.1
+
+   
